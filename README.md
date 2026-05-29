@@ -32,7 +32,7 @@ Social_Network_Platform/
 
 ## Live Demo
 
-GitHub Pages can be enabled from the repository settings to publish this project online.
+Live site: [Social Network Platform](https://ashuman5.github.io/Social_Network_Platform/)
 
 ## Note
 
