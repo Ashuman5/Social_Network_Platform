@@ -67,13 +67,13 @@
     posts.forEach((post, index) => {
       let html = `<div class="card post">
         <p>${post.text}</p>
-        <span class="like" onclick="likePost(${index})">❤ ${post.likes}</span>
+        <span class="like" onclick="likePost(${index})">Like ${post.likes}</span>
         <div>
           <input id="comment${index}" placeholder="Write a comment" />
           <button onclick="addComment(${index}, 'comment${index}')">Comment</button>
         </div>`;
       post.comments.forEach(c => {
-        html += `<div class="comment">• ${c}</div>`;
+        html += `<div class="comment">- ${c}</div>`;
       });
       html += `</div>`;
       postsDiv.innerHTML += html;

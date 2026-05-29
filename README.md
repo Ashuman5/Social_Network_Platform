@@ -1,106 +1,50 @@
-# 🌐 Social Network Platform
+# Social Network Platform
 
-A mini **social networking web application** developed as **Task 2** for the **CodeAlpha Web Development Internship**. This project demonstrates full‑stack web development fundamentals including user interaction, content creation, and basic social features.
+A frontend mini social networking app built with HTML, CSS, and JavaScript. Users can create posts, like posts, add comments, and keep data in the browser using local storage.
 
----
+## Features
 
-## 📌 Features
+- Create and view posts
+- Like posts
+- Add comments
+- Save posts and comments in local storage
+- Clean single-page interface
 
-* 👤 User profiles
-* 📝 Create and view posts
-* 💬 Comment on posts
-* ❤️ Like posts
-* ➕ Follow / Unfollow users
-* 🗂️ Organized feed structure
+## Technologies Used
 
----
+- HTML5
+- CSS3
+- JavaScript
+- Browser local storage
 
-## 🛠️ Tech Stack
+## Project Structure
 
-### Frontend
-
-* **HTML5** – Page structure
-* **CSS3** – Styling and layout
-* **JavaScript** – Interactivity and DOM manipulation
-
-### Backend (Choose One)
-
-* **Django (Python)** *or*
-* **Express.js (Node.js)**
-
-### Database
-
-* SQLite / MySQL / MongoDB (for users, posts, comments, followers)
-
----
-
-## 📂 Project Structure
-
-```
-CodeAlpha_SocialNetwork/
-│
-├── frontend/
-│   ├── index.html
-│   ├── style.css
-│   └── script.js
-│
-├── backend/
-│   ├── server.py / app.js
-│   └── models/
-│
-├── database/
-│   └── db.sqlite3 / schema.sql
-│
-└── README.md
+```text
+Social_Network_Platform/
+└── index.html
 ```
 
----
+## How to Run
 
-## 🚀 How to Run the Project
+1. Clone this repository.
+2. Open the `Social_Network_Platform` folder.
+3. Open `index.html` in a browser.
 
-### Frontend
+## Live Demo
 
-1. Open `index.html` in your browser
+GitHub Pages can be enabled from the repository settings to publish this project online.
 
-### Backend (Example)
+## Note
 
-```bash
-# For Django
-python manage.py runserver
+This is a frontend-only project. It does not use a backend server or external database yet.
 
-# For Node.js
-npm install
-node app.js
-```
+## Future Improvements
 
----
+- Add user profiles
+- Add login and authentication
+- Move data from local storage to a database
+- Split HTML, CSS, and JavaScript into separate files
 
-## 🎯 Internship Details
+## Author
 
-* **Program:** CodeAlpha Web Development Internship
-* **Task:** Social Network Platform (Task 2)
-* **Objective:** Build a mini social media application with core social features
-
----
-
-## 📸 Demo & Explanation
-
-📌 A video explanation of this project has been shared on LinkedIn along with the GitHub repository link as required by CodeAlpha.
-
----
-
-## 📄 Disclaimer
-
-This project is created for **educational and internship purposes only**.
-
----
-
-## 🙌 Acknowledgement
-
-Special thanks to **CodeAlpha** for providing hands‑on project‑based learning opportunities.
-
----
-
-### ✨ Author
-
-**Ashutosh Tiwari**
+Ashutosh Tiwari
